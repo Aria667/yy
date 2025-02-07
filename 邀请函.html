@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>邀请你看电影《哪吒之魔童闹海》</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        .poster {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .invitation {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007bff;
+            border-radius: 5px;
+            text-decoration: none;
+            margin: 5px;
+        }
+        .button.yes {
+            background-color: #28a745;
+        }
+        .button.no {
+            background-color: #dc3545;
+        }
+    </style>
+</head>
+<body>
+    <h1>邀请你看电影</h1>
+    <img src="nezha_poster.jpg" alt="哪吒之魔童闹海海报" class="poster">
+    <p class="invitation">嘿，我最近听说《哪吒之魔童闹海》特别好看，你有兴趣一起去看吗？</p>
+    <a href="javascript:void(0);" class="button yes" onclick="alert('太棒了！我们一起去吧！');">好的，一起去！</a>
+    <a href="javascript:void(0);" class="button no" onclick="alert('没关系，下次再一起看吧！');">抱歉，这次不行。</a>
+</body>
+</html>
